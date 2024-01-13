@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Fuggles&family=Noto+Sans+Nabataean&family=Roboto:ital,wght@1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Nabataean', sans-serif;
+}
+
+
+.head-container{
+    width: 720px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+
+}
+.w-50{
+    width: 360px;
+}
+.titles {
+    font-size: 40px;
+
+}
+.titles:hover{
+    color: violet;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.display-image{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    image-orientation: inherit;
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.logo:hover{
+    color: violet;
+    
+}
+
+.nav-bar{
+    width: 720px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+.nav-links{
+    text-decoration: none;
+    padding: 4px 10px;
+    margin: 0 4px;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-links:hover{
+    background-color: rgb(176, 174, 174);
+    border-radius: 10px;
+    
+}
+
+.join-btn{
+    background-color: rgb(255, 159, 245);
+    border-radius: 10px;
+}
+
+.project-container{
+    width: 720px;
+    margin: 50px auto;
+    
+    
+}
+
+.card{
+    width:400px;
+    box-shadow: 0px 0px 8px rgb(255, 136, 156);
+    padding: 10px;
+    border-radius: 18px;
+    margin:10px;
+   flex-grow: 1;
+}
+
+.project-container .card:first-child{
+    margin-left: 0;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+.project-title {
+    text-align: center;
+}
+
+.pro-para {
+    text-align: center;
+}
+
+.pro-flex {
+    display: flex;
+}
+
+.email-container {
+    margin: 50px auto;
+    box-shadow: 0px 0px 6px rebeccapurple;
+}
